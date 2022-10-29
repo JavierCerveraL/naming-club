@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    
+    --color-body: #FFFDFA;
+    --color-heading: #000205;
+    --color-base: #626060;
+    --color-base2: #303030;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-width: 150px;
+    --font-base: "Merriweather";
+}
+
+
+body{
+    background-color: var(--color-body);
+    color: var(--color-heading);
+    font-family: var(--font-base), sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-heading) !important;
+    font-weight: 700;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-body) ;
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    color: var(--color-brand);
+}
+
+img{
+    width: 100%;
+}
+
